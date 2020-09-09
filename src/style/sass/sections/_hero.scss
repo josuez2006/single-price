@@ -1,0 +1,20 @@
+.hero {
+    height: 50%;
+    &__title {
+        color: $cyan;
+        font-weight: 700;
+        font-size: 1.7em;
+    }
+
+    &__subTitle {
+        color: $brightYellow;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    &__copy {
+        color: $grayishBlue;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+}
